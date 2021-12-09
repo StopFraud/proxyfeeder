@@ -120,7 +120,7 @@ def threaded_proxy():
     try:
         socket.setdefaulttimeout(10)
         response = requests.get(
-            'https://api.proxyscrape.com/?request=displayproxies&proxytype=https&timeout=7000&anonymity=elite&ssl=yes')
+            'https://api.proxyscrape.com/?request=displayproxies&proxytype=https&timeout=7000&anonymity=elite&ssl=yes',timeout=10)
         q = []
         for line in response.text.splitlines():
             q.append(line)

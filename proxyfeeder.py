@@ -2,12 +2,12 @@
 import os
 import socket
 from threading import Thread
+import time
 import urllib
 import urllib.request
 
 import pika
 import requests
-import time
 
 ENV = "dev"
 SPAM = 0

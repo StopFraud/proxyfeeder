@@ -7,6 +7,7 @@ import urllib.request
 
 import pika
 import requests
+import time
 
 ENV = "dev"
 SPAM = 0

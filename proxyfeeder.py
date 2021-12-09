@@ -149,3 +149,5 @@ else:
     MODE="RABBITMQ"
 while True:
     threaded_proxy()
+    time.sleep(60)
+    print ("sleeping 1m")

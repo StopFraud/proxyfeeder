@@ -9,7 +9,7 @@ import pika
 import requests
 
 ENV = "dev"
-SPAM = 0
+SPAM = 1
 
 def _debug(message):
     print(message)
